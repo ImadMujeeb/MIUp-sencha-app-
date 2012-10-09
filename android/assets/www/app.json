@@ -1,0 +1,1 @@
+{"id":"5e6251b0-0d51-11e2-9acc-499e6099ff43","js":[{"path":"cordova-2.1.0.js","type":"js"},{"path":"sdk/sencha-touch.js","type":"js"},{"path":"app.js","bundle":true,"update":"delta","type":"js"}],"css":[{"path":"resources/css/app.css","update":"delta","type":"css"}]}
