@@ -40,8 +40,8 @@ Ext.define('MIUp.controller.General',{
     },
     oneImageSuccess:function(response){
         var jso = Ext.JSON.decode(response);
-        if (jso) response = jso[0].url;
-        this.addLog('Uploaded file:'+response)
+        if (jso) response = '<a href="'+jso[0].url+'">'+jso[0].url+'</a>';
+        this.addLog('Uploaded file:'+response);
         var imstor = Ext.getStore('theImageQueue');
         imstor.removeAt(0);
         imstor.sync();
